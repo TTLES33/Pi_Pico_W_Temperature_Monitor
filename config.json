@@ -1,0 +1,17 @@
+{
+  "wifi": [
+    {
+      "ssid":"grygarovi",
+      "password":"bengrygar"
+    },
+    {
+      "ssid":"KudelkoviFVE",
+      "password":"BenGrygar"
+    },
+    {
+      "ssid":"Kudelkovi",
+      "password":"BenGrygar"
+    }
+  ],
+  "sensor_pin": 22
+}
