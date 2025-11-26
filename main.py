@@ -164,7 +164,7 @@ async def main_loop():
         #odeslání dat na servery
         print('---------- SENDING DATA TO API  ----------')
         await send_data_to_server("http://192.168.1.109:8081/temp/setData", temparray, "NasServer")
-        await send_data_to_server("https://www.kalemp.cz/teplomery/zapisdat.php", temparrayKALEMP, "KALEPMP")
+        await send_data_to_server("https://www.kalemp.cz/teplomery/zapisdat.php", temparrayKALEMP, "KALEMP")
         print('------------------------------------------')
 
         await wait_with_wtd(10)
